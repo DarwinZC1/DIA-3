@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    /*  
+    Declarar las siguientes variables; nombre, apellido, país, ciudad, edad, está casado, año y autoriza un valor,
+    use el operador typeof para verificar diferentes tipos de datos.*/
+
+        let nombre = "Darwin"
+        let apellido = "Zarate Cordova"
+        let pais = "Bolivia"
+        let edad = 23
+        let EstaCasado = "False"
+        let año = 1999
+
+        console.log(typeof nombre)
+        console.log(typeof apellido)
+        console.log(typeof pais)
+        console.log(typeof edad)
+        console.log(typeof EstaCasado)
+        console.log(typeof año)
+
+
+        //Verifique si typeof '10' es igual a 10
+        console.log(typeof '10' == 10);
+        
+
+
+        //Verifique si parseInt('9.8') es igual a 10
+        console.log(parseInt ('9.8') == (10));
+       
+
+
+        //Verifique cualquier valor booleano verdadero o falso
+        let boolean = true;
+
+        //Escriba tres declaraciones de JavaScript que proporcionen un valor verdadero.
+        let palabra = "JavaScript"
+        console.log(palabra.includes('p'));
+        console.log(palabra.includes('va'));
+        console.log(palabra.includes('ipt'));
+
+        //Escriba tres declaraciones de JavaScript que proporcionen un valor falso
+        let string = "JavaScript"
+        console.log(string.includes('ipT'));
+        console.log(string.includes('scr'));
+        console.log(string.includes('java'));
+
+
+        /*calcule primero el resultado de la siguiente expresión de comparación sin usar console.log().
+         Después de decidir el resultado, confirmelo usando console.log()*/
+        
+            4 > 3       //true
+            4 >= 3      //true
+            4 < 3       //false
+            4 <= 3      //false
+            4 == 4      //true
+            4 === 4     //true
+            4 != 4      //false
+            4 !== 4     //false
+            4 != '4'    //false
+            4 == '4'    //true
+            4 === '4'   //false
+
+            console.log(4 > 3);
+            console.log(4 >= 3 );
+            console.log(4 < 3);
+            console.log(4 <= 3);
+            console.log(4 == 4);
+            console.log(4 === 4);
+            console.log(4 != 4);
+            console.log(4 !== 4);
+            console.log( 4 != '4');
+            console.log(4 == '4');
+            console.log(4 === '4');
+
+            //Encuentre la longitud de Python y jerga y haga una declaración de comparación falsa
+            let palabra1 = "Phyton"
+            let palabra2 = "jerga"
+            console.log(palabra1.length);
+            console.log(palabra2.length);
+            console.log(palabra1.length == palabra2.length);
+
+
+            /*Calcule primero el resultado de las siguientes expresiones sin usar console.log().
+             Después de decidir el resultado, confirmelo usando console.log()*/
+
+                4 > 3 && 10 < 12  //
+                4 > 3 && 10 > 12  //
+                4 > 3 || 10 < 12  //
+                4 > 3 || 10 > 12  //
+                !(4 > 3)          //
+                !(4 < 3)          //
+                (FALSO)          //  
+                !(4 > 3 && 10 < 12)//
+                !(4 > 3 && 10 > 12)//
+                !(4 === '4')        //
+
+                console.log(4 > 3 && 10 < 12);
+                console.log(4 > 3 && 10 > 12);
+                console.log(4 > 3 || 10 < 12);
+                console.log(4 > 3 || 10 > 12);
+                console.log(!(4 > 3));
+                console.log(!(4 < 3));
+                console.log(FALSO);
+                console.log(!(4 > 3 && 10 < 12));
+                console.log(!(4 > 3 && 10 > 12));
+                console.log(!(4 === '4'));
+
+
+
+
+       
+
+
+
+    </script>
+</body>
+</html>
